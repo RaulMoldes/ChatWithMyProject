@@ -4,6 +4,11 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import OllamaEmbeddings
+import subprocess
+
+
+subprocess.call("ollama serve", shell=False)
+subprocess.call("ollama pull llama3", shell=False)
 
 PDF_PATH = "data/TFM.pdf"
 
