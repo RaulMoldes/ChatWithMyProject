@@ -58,13 +58,20 @@ if __name__ == "__main__":
 
     vectorstore = get_vectorstore()
     
-    # Ask a question about the webpage
+    # Ask a question about the project
     st.title("Chat with my Final Project! 🌐")
     st.caption("This app allows you to chat with my Final Project of my Master's Degree using local Llama-3  embeddings!")
-
+    st.text("Project title: Minería de datos aplicada a sistemas de captura de movimiento.")
+    st.text("Author: Raúl Moldes Castillo")
+    st.text("E-mail: raul.moldes.work@gmail.com")
+    st.text("GitHub: RaulMoldes")
+    st.text("LinkedIn: raúl-moldes-castillo")
+    st.text("\n")
     prompt = st.text_input("Ask any question about the project")
 
     # Chat with the webpage
     if prompt:
         result = rag_chain(question = prompt, vectorstore=vectorstore)
         st.write(result)
+
+    st.image("imgs/img.jpeg", caption="Final Project")
