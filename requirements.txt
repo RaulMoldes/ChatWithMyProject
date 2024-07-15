@@ -1,0 +1,10 @@
+langchain==0.2.7                    
+langchain-community==0.2.7                    
+langchain-core==0.2.16                  
+langchain-text-splitters==0.2.2                   
+langchainhub==0.1.20                   
+langcodes==3.4.0                    
+langsmith==0.1.85                   
+language-data==1.2.0                 
+streamlit==1.36.0
+ollama==0.2.1                
