@@ -15,3 +15,6 @@ Technologies I used:
 
 You should have OLLAMA installed and have pulled the llama3 model (`ollama pull llama3`).
 After that, go to the folder of the repository and type: `streamlit run rag.py`
+
+
+Deployed at https://chatwithmyproject-663zymx5e88gzue7e3cdzd.streamlit.app/
