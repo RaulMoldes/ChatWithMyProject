@@ -12,4 +12,6 @@ Technologies I used:
 
 
 # To test it yourself.
-`streamlit run rag.py`
+
+You should have OLLAMA installed and have pulled the llama3 model (`ollama pull llama3`).
+After that, go to the folder of the repository and type: `streamlit run rag.py`
