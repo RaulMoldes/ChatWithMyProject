@@ -11,3 +11,5 @@ Technologies I used:
 - `FAISS` local vectorstore.
 
 
+# To test it yourself.
+`streamlit run rag.py`
